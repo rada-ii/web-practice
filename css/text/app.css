@@ -1,0 +1,21 @@
+h1 {
+  text-decoration: #f78120 underline wavy;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 15px;
+  font-size: 80px;
+  /* font-family: Segoe UI, Futura, Arial, sans-serif; */
+  font-family: monospace;
+  text-decoration: double;
+}
+/* #text {
+  text-decoration: #f78120 underline wavy;
+} */
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}

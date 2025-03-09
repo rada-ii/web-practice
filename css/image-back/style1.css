@@ -1,0 +1,43 @@
+/* section {
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1433888104365-77d8043c9615?q=80&w=2373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      no-repeat center/ 60%,
+    url("https://images.unsplash.com/photo-1564442038901-4f9a19d3d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1227&q=80")
+      no-repeat center center / cover;
+}
+
+section::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 20%;
+  background: url("https://images.unsplash.com/photo-1734779206719-864dbdae36d6?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center / cover;
+  border-radius: 50%;
+} */
+section {
+  width: 100vh;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1433888104365-77d8043c9615?q=80&w=2373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      no-repeat center/ 60%,
+    url("https://images.unsplash.com/photo-1564442038901-4f9a19d3d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1227&q=80")
+      no-repeat center center / cover;
+
+  /* Dodajemo Flex za pozicioniranje */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  background: url("https://images.unsplash.com/photo-1734779206719-864dbdae36d6?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center / cover;
+}
